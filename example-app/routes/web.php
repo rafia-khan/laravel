@@ -18,3 +18,7 @@ Route::get('/post', function () {
 Route::get('/post/firstpost', function () {
     return view('firstpost');
 });
+
+Route::get('/secondpage', function () {
+    return view('secondpage');
+});
