@@ -98,14 +98,14 @@
 
 {{-- even/odd --}}
 @php
-    $name = ["Tuly", "RAfia", "Tuhin","Tuhin"];
+    $name = ["sunna", "RAfia", "Fariha","anika"];
     $user = "YaBbab"
 @endphp
 
 <ul>
 @foreach ($name as $n )
     @if ($loop->even)
-    <li style="color:brown;">{{ $n }}</li>
+    <li style="color:rgb(156, 22, 245);">{{ $n }}</li>
         @elseif ($loop->odd)
         <li style="color:blue;">{{ $n }}</li>
     @endif
