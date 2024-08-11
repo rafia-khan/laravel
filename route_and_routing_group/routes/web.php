@@ -37,3 +37,8 @@ route::prefix('page')->group(function(){
 Route::fallback(function(){
     return "<h1?> Page Not found</h1>";
 });
+
+
+
+
+
