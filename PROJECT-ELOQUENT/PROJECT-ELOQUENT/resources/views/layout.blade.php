@@ -12,11 +12,11 @@
     <div class="container">
         <div class="row"> 
             <div class=" col-8 bg-success text-center mb-2"> 
-                <h2>Eloqouent Crud</h2>
+                <h2>Crud</h2>
             </div>
         </div>
         <div class="row">
-            <div class="col-8 bg-warning mb-3"> 
+            <div class="col-8 bg-info mb-3"> 
                 <h4>@yield('title')</h4>
             </div>
 

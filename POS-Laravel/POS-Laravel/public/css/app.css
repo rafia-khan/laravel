@@ -39246,7 +39246,7 @@ a.disabled.mailbox-attachment-close {
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
-    background-color: #e9ecef;
+    background-color: var(--blue);
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
@@ -39275,9 +39275,9 @@ a.disabled.mailbox-attachment-close {
 }
 .login-card-body,
 .register-card-body {
-    background-color: #fff;
+    background-color: powderblue;
     border-top: 0;
-    color: #666;
+    color: black;
     padding: 20px;
 }
 .login-card-body .input-group .form-control,
@@ -39358,7 +39358,7 @@ a.disabled.mailbox-attachment-close {
     border-bottom-right-radius: 0.25rem;
     border-left: 0;
     border-top-right-radius: 0.25rem;
-    color: #777;
+    color: var(--red);
     transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 .login-box-msg,
@@ -53598,11 +53598,11 @@ blockquote.quote-gray-dark h6 {
     color: #fff;
 }
 .bg-white {
-    background-color: #fff !important;
+    background-color: var(--red) !important;
 }
 .bg-white,
 .bg-white > a {
-    color: #1f2d3d !important;
+    color: var(--red) !important;
 }
 .bg-white.btn:hover {
     border-color: #e6e6e6;
@@ -53612,7 +53612,7 @@ blockquote.quote-gray-dark h6 {
 .bg-white.btn:active,
 .bg-white.btn:not(:disabled):not(.disabled).active,
 .bg-white.btn:not(:disabled):not(.disabled):active {
-    background-color: #e6e6e6 !important;
+    background-color: var(--red) !important;
     border-color: #dfdfdf;
     color: #1f2d3d;
 }
