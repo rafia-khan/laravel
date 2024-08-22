@@ -8,5 +8,7 @@
 @forelse ( $names as $key => $value  )
     <p>{{ $key }} - {{ $value }}</p>
 @empty
-       <p>No Value Found</p> 
+       <p>No Value Founding</p> 
+       <p>No Value Foun</p> 
+
 @endforelse
