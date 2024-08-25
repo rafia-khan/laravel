@@ -11,18 +11,24 @@
     <div class="container">
         <div class="row">
             <div class="col-sm-12">
-                <table> 
+                <table class="table table-striped"> 
                     <tr>
                         <th>Id</th>
                         <th>Post</th>
                         <th>Comments</th>
                     </tr>
 
-                    @forelse ( as )
+                    @foreach ( $posts as $p)
+                        <tr> 
+                            <td> {{$p->id}}</td>
+                            <td> {{$p->name}}</td>
+                            <td>@foreach ($p->comments as $pc)
+                                {{$pc->name}} <br>
+                            @endforeach</td>
+                        </tr>
+                    
                         
-                    @empty
-                        
-                    @endforelse
+                    @endforeach
                 </table>
             </div>
         </div>
