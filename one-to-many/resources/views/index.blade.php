@@ -18,18 +18,6 @@
                         <th>Comments</th>
                     </tr>
 
-                    <!-- @foreach ( $posts as $p)
-                        <tr> 
-                            <td> {{$p->id}}</td>
-                            <td> {{$p->name}}</td>
-                            <td>@foreach ($p->comments as $pc)
-                                {{$pc->name}} <br>
-                            @endforeach</td>
-                        </tr>
-                    
-                        
-                    @endforeach -->
-
                     @foreach ( $posts as $p)
                         <tr> 
                             <td> {{$p->id}}</td>
@@ -41,7 +29,6 @@
                     
                         
                     @endforeach
-
                 </table>
             </div>
         </div>
