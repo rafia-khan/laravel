@@ -18,7 +18,7 @@
                         <th>Comments</th>
                     </tr>
 
-                    @foreach ( $posts as $p)
+                    <!-- @foreach ( $posts as $p)
                         <tr> 
                             <td> {{$p->id}}</td>
                             <td> {{$p->name}}</td>
@@ -28,7 +28,7 @@
                         </tr>
                     
                         
-                    @endforeach
+                    @endforeach -->
                 </table>
             </div>
         </div>
