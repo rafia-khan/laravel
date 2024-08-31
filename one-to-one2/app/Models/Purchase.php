@@ -9,7 +9,7 @@ class Purchase extends Model
 {
     use HasFactory;
 
-    public function sales(){
-        return $this->hasOne(Sale::class);
-    }
+    // public function sales(){
+    //     return $this->hasOne(Sale::class);
+    // }
 }

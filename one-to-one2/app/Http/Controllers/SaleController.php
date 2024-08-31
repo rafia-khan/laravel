@@ -9,7 +9,7 @@ use App\Models\Sale;
 class SaleController extends Controller
 {
     public function index(){
-        $sales = Purchase::with('sales')->get();
+        $sales = Sale::with('purchase')->get();
         return $sales;
     }
 }
