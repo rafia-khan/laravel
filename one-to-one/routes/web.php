@@ -8,4 +8,5 @@ Route::get('/', function () {
 });
 
 
+// Route::get('data', [ProductController::class, 'index']);
 Route::get('data', [ProductController::class, 'index']);
