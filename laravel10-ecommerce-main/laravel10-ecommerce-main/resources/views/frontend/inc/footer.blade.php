@@ -1,4 +1,4 @@
-<footer class="site-footer border-top" style="background-color: rgb(245, 219, 236)">
+ <footer class="site-footer border-top" style="background-color: rgb(245, 219, 236)">
     <div class="container">
         <div class="row">
             <div class="col-lg-6 mb-5 mb-lg-6">
@@ -20,11 +20,11 @@
                 <div class="block-5 mb-5">
                     <h3 class="footer-heading mb-4">Contact Info</h3>
                     <ul class="list-unstyled">
-                        <li class="address">{!! $settings['address'] !!}</li>
+                        {{-- <li class="address">{!! $settings['address'] !!}</li>
                         <li class="phone"><a
                                 href="tel://{{ str_replace(' ', ' ', $settings['phone']) }}">{{ $settings['phone'] }}</a>
                         </li>
-                        <li class="email">{{ $settings['email'] }}</li>
+                        <li class="email">{{ $settings['email'] }}</li> --}}
                     </ul>
                 </div>
 
@@ -44,3 +44,5 @@
         </div>
     </div>
 </footer>
+
+

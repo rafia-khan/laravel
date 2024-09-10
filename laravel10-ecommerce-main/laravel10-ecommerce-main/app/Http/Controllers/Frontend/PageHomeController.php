@@ -15,7 +15,9 @@ class PageHomeController extends Controller
         // $slider = Slider::where('status', '1')->get();
         $slider = Slider::where('status', '1')->first(); // tek veri gönderildiği zaman kullanılabilir
 
-        $about = About::where("id",1)->first();
+        // $about = About::where("id",1)->first();
+        $about = About::first();
+        
 
         $lastProducts = Product::where('status','1')
          ->select(['id','name','slug','size','color','price','category_id','image'])

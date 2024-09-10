@@ -16,7 +16,7 @@ if(!function_exists('resimyukle')){
             $extension = $img->getClientOriginalExtension();
             $folderName = time().'-'.Str::slug($name);
 
-            if (in_array($extension, ['pdf', 'svg', 'webp', 'jiff'])) { // Dosya uzantısına göre işlemler
+            if (in_array($extension, ['pdf','jpg','jpeg','png', 'svg', 'webp', 'jiff'])) { // Dosya uzantısına göre işlemler
                 $img->move(public_path($yol), $folderName.'.'.$extension);
                 $imgurl = $yol.$folderName.'.'.$extension;
             } else {
