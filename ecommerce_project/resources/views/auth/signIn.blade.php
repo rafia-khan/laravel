@@ -82,7 +82,7 @@
                 if (result.status == 200) {
                     alert('Succesfully submit');
                 }else{
-                    alert('worng Credentials');
+                    alert('Worng Credentials');
                 }
             }
         });
@@ -92,4 +92,9 @@
        
  
     });
+
+
+        $('#formSubmit').submit(function(e){
+            e.preventDefault()
+        })
 </script>
