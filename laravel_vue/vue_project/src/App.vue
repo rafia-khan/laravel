@@ -1,8 +1,12 @@
 <template>
   <div id="app">
-    <Navbar />
+   
     <Sidebar />
+    <div class="content">
+      <Navbar />
+   
     <router-view />
+  </div>
   </div>
 </template>
 
@@ -19,9 +23,16 @@ export default {
 };
 </script>
 
-<!-- <style>
-.content {
-  margin-left: 250px; /* Adjust to match the sidebar width */
-  padding: 20px;
+<style>
+#app{
+  display: flex;
 }
-</style> -->
+.content{
+  margin-left: 250px;
+  padding: 30px;
+  width: 100%;
+}
+
+</style>
+
+<!-- up" -->

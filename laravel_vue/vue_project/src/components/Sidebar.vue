@@ -17,9 +17,10 @@
   
   <style scoped>
   .sidebar {
+   
     width: 250px;
     height: 100vh;
-    background-color: #333;
+    background-color: #854e4e;
     padding-top: 20px;
     position: fixed;
     top: 0;
@@ -27,6 +28,7 @@
   }
   
   .sidebar ul {
+    margin-left: 10px;
     list-style-type: none;
     padding: 0;
   }
@@ -43,7 +45,7 @@
   }
   
   .sidebar ul li a:hover {
-    background-color: #575757;
+    background-color: #e43232;
   }
   </style>
   
