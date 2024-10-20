@@ -7,10 +7,10 @@
             <div class="pull-left image">
                 <img src="{{ url(auth()->user()->foto ?? '') }}" class="img-circle img-profil" alt="User Image">
             </div>
-            {{-- <div class="pull-left info">
+            <div class="pull-left info">
                 <p>{{ auth()->user()->name }}</p>
                 <a href="#"><i class="fa fa-circle text-success"></i> Online</a>
-            </div> --}}
+            </div>
         </div>
         
         <!-- /.search form -->
@@ -23,8 +23,8 @@
             </li>
 
             @if (auth()->user()->level == 1)
-            {{-- <li class="header">MASTER</li>
-            <li> --}}
+            <li class="header">MASTER</li>
+            <li>
                 <a href="{{ route('kategori.index') }}">
                     <i class="fa fa-cube"></i> <span>Category</span>
                 </a>
@@ -62,7 +62,7 @@
             </li>
             <li>
                 <a href="{{ route('transaksi.baru') }}">
-                    <i class="fa fa-cart-plus"></i> <span>Sales</span>
+                    <i class="fa fa-cart-plus"></i> <span>New Transaction</span>
                 </a>
             </li>
             <li>
